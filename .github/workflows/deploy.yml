@@ -1,0 +1,6 @@
+name: Trigger web deployment
+
+on:
+  push:
+    branches:
+      - main
