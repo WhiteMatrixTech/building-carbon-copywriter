@@ -98,3 +98,32 @@ export const home = {
     }
   ]
 }
+
+/**
+ * 项目总览
+ */
+export const projectView = {
+  // 项目列表
+  projectList: [
+    {
+      id: 'xx',
+      name: 'xx',
+      currentValue: 'xx%',
+      designValue: 'xx%',
+      percentage: 'xx%',
+      status: 1, // 1 正常 0 预警  可参考
+      type: 'xx',
+      volume: 'xxx',
+      department: 'xx'
+    }
+  ],
+  // 项目类型select列表
+  projectType: [
+    {
+      name: 'xx',
+      value: 'xx'
+    }
+  ],
+  // 月度select列表数据
+  monthList: [1,2,3,4,5,6,7,8,9,10,11,12]
+}
