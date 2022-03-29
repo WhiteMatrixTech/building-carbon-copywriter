@@ -38,22 +38,22 @@ export const home = {
     },
     {
       cover: 'https://matrixlabs-resource.s3.ap-northeast-1.amazonaws.com/Test+img/Carbon+emissions/HomePage/Rectangle+5.png',
-      title: '南部新城白******末站建设工程',
+      title: '南京市图书馆项目',
       link: '/'
     },
     {
       cover: 'https://matrixlabs-resource.s3.ap-northeast-1.amazonaws.com/Test+img/Carbon+emissions/HomePage/Rectangle+5.png',
-      title: 'NO.202******地产开发项目',
+      title: '鼓楼区医院项目',
       link: '/'
     },
     {
       cover: 'https://matrixlabs-resource.s3.ap-northeast-1.amazonaws.com/Test+img/Carbon+emissions/HomePage/Rectangle+5.png',
-      title: '栖霞区******信工程',
+      title: '南京地铁四号线项目',
       link: '/'
     },
     {
       cover: 'https://matrixlabs-resource.s3.ap-northeast-1.amazonaws.com/Test+img/Carbon+emissions/HomePage/Rectangle+5.png',
-      title: '栖霞区妇******接入工程',
+      title: '江宁医院项目',
       link: '/'
     },
         {
@@ -106,22 +106,158 @@ export const projectView = {
   // 项目列表
   projectList: [
     {
-      id: 'xx',
-      name: 'xx',
-      currentValue: 'xx%',
-      designValue: 'xx%',
-      percentage: 'xx%',
+      id: 'JRCJC-01',
+      name: '南京金融城超高层监测项目',
+      currentValue: '1034.35t',
+      designValue: '2308.43t',
+      percentage: '44.81%',
       status: 1, // 1 正常 0 预警  可参考
-      type: 'xx',
-      volume: 'xxx',
-      department: 'xx'
+      type: '1',
+      volume: '3.5万㎡',
+      department: '建设公司1'
+    },
+    {
+      id: 'ZYSC-02',
+      name: '南京中央商城项目',
+      currentValue: '2910.3t',
+      designValue: '4021.52t',
+      percentage: '72.37%',
+      status: 1, // 1 正常 0 预警  可参考
+      type: '1',
+      volume: '200万元',
+      department: '李四'
+    },
+    {
+      id: 'TSG-03',
+      name: '南京市图书馆项目',
+      currentValue: '703.12t',
+      designValue: '780.33t',
+      percentage: '90.11%',
+      status: 0, // 1 正常 0 预警  可参考
+      type: '1',
+      volume: '200万元',
+      department: '李四'
+    },
+    {
+      id: 'ZYSC-02',
+      name: '南京会展中心项目',
+      currentValue: '1034.35t',
+      designValue: '2308.43t',
+      percentage: '44.81%',
+      status: 1, // 1 正常 0 预警  可参考
+      type: '1',
+      volume: '200万元',
+      department: '李四'
+    },
+    {
+      id: 'ZYSC-02',
+      name: '南京跨省高架项目',
+      currentValue: '2039.14t',
+      designValue: '3020.55t',
+      percentage: '67.51%',
+      status: 1, // 1 正常 0 预警  可参考
+      type: '1',
+      volume: '200万元',
+      department: '李四'
+    },
+    {
+      id: 'ZYSC-02',
+      name: '南京中央商城项目',
+      currentValue: '2910.3t',
+      designValue: '4021.52t',
+      percentage: '72.37%',
+      status: 1, // 1 正常 0 预警  可参考
+      type: '1',
+      volume: '200万元',
+      department: '李四'
+    },
+    {
+      id: 'ZYSC-02',
+      name: '南京中央商城项目',
+      currentValue: '2910.3t',
+      designValue: '4021.52t',
+      percentage: '72.37%',
+      status: 1, // 1 正常 0 预警  可参考
+      type: '1',
+      volume: '200万元',
+      department: '李四'
+    },
+    {
+      id: 'ZYSC-02',
+      name: '南京中央商城项目',
+      currentValue: '2910.3t',
+      designValue: '4021.52t',
+      percentage: '72.37%',
+      status: 1, // 1 正常 0 预警  可参考
+      type: '1',
+      volume: '200万元',
+      department: '李四'
+    },
+    {
+      id: 'ZYSC-02',
+      name: '南京中央商城项目',
+      currentValue: '2910.3t',
+      designValue: '4021.52t',
+      percentage: '72.37%',
+      status: 1, // 1 正常 0 预警  可参考
+      type: '1',
+      volume: '200万元',
+      department: '李四'
+    },
+    {
+      id: 'ZYSC-02',
+      name: '南京中央商城项目',
+      currentValue: '2910.3t',
+      designValue: '4021.52t',
+      percentage: '72.37%',
+      status: 1, // 1 正常 0 预警  可参考
+      type: '1',
+      volume: '200万元',
+      department: '李四'
+    },
+    {
+      id: 'ZYSC-02',
+      name: '南京中央商城项目',
+      currentValue: '2910.3t',
+      designValue: '4021.52t',
+      percentage: '72.37%',
+      status: 1, // 1 正常 0 预警  可参考
+      type: '1',
+      volume: '200万元',
+      department: '李四'
+    },
+    {
+      id: 'ZYSC-02',
+      name: '南京中央商城项目',
+      currentValue: '2910.3t',
+      designValue: '4021.52t',
+      percentage: '72.37%',
+      status: 1, // 1 正常 0 预警  可参考
+      type: '1',
+      volume: '200万元',
+      department: '李四'
+    },
+    {
+      id: 'ZYSC-02',
+      name: '南京中央商城项目',
+      currentValue: '2910.3t',
+      designValue: '4021.52t',
+      percentage: '72.37%',
+      status: 1, // 1 正常 0 预警  可参考
+      type: '1',
+      volume: '200万元',
+      department: '李四'
     }
   ],
   // 项目类型select列表
   projectType: [
     {
-      name: 'xx',
-      value: 'xx'
+      name: '生产开发项目',
+      value: '1'
+    },
+    {
+      name: '课题示范项目',
+      value: '2'
     }
   ],
   // 月度select列表数据
