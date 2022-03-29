@@ -285,13 +285,6 @@ export const projectQuery = {
       parentValue:0
     }
   ],
-  projectSection: [
-    {
-      label: '标段2',
-      value: 2,
-      parentValue:0
-    }
-  ],
   // 子工程,
   subProject: [
     {
@@ -300,54 +293,12 @@ export const projectQuery = {
       parentValue:1
     }
   ],
-  subProject: [
-    {
-      label: '子工程2',
-      value: 4,
-      parentValue:1
-    }
-  ],
-  subProject: [
-    {
-      label: '子工程3',
-      value: 5,
-      parentValue:2
-    }
-  ],
-  subProject: [
-    {
-      label: '子工程4',
-      value: 6,
-      parentValue:2
-    }
-  ],
   // 构造
   projectConstruct: [
     {
       label: '构造1',
       value: 7,
       parentValue:3
-    }
-  ],
-  projectConstruct: [
-    {
-      label: '构造2',
-      value: 8,
-      parentValue:4
-    }
-  ],
-  projectConstruct: [
-    {
-      label: '构造3',
-      value: 9,
-      parentValue:5
-    }
-  ],
-  projectConstruct: [
-    {
-      label: '构造4',
-      value: 10,
-      parentValue:6
     }
   ],
   // 构建
