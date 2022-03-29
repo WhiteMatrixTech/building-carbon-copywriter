@@ -112,7 +112,7 @@ export const projectView = {
       designValue: '2308.43t',
       percentage: '44.81%',
       status: 1, // 1 正常 0 预警  可参考
-      type: '1',
+      type: 1,
       volume: '3.5万㎡',
       department: '建设公司1'
     },
@@ -123,7 +123,7 @@ export const projectView = {
       designValue: '4021.52t',
       percentage: '72.37%',
       status: 1, // 1 正常 0 预警  可参考
-      type: '1',
+      type: 1,
       volume: '200万元',
       department: '李四'
     },
@@ -134,7 +134,7 @@ export const projectView = {
       designValue: '780.33t',
       percentage: '90.11%',
       status: 0, // 1 正常 0 预警  可参考
-      type: '1',
+      type: 1,
       volume: '200万元',
       department: '李四'
     },
@@ -145,7 +145,7 @@ export const projectView = {
       designValue: '2308.43t',
       percentage: '44.81%',
       status: 1, // 1 正常 0 预警  可参考
-      type: '1',
+      type: 1,
       volume: '200万元',
       department: '李四'
     },
@@ -156,7 +156,7 @@ export const projectView = {
       designValue: '3020.55t',
       percentage: '67.51%',
       status: 1, // 1 正常 0 预警  可参考
-      type: '1',
+      type: 1,
       volume: '200万元',
       department: '李四'
     },
@@ -167,7 +167,7 @@ export const projectView = {
       designValue: '4021.52t',
       percentage: '72.37%',
       status: 1, // 1 正常 0 预警  可参考
-      type: '1',
+      type: 2,
       volume: '200万元',
       department: '李四'
     },
@@ -178,7 +178,7 @@ export const projectView = {
       designValue: '4021.52t',
       percentage: '72.37%',
       status: 1, // 1 正常 0 预警  可参考
-      type: '1',
+      type: 2,
       volume: '200万元',
       department: '李四'
     },
@@ -189,7 +189,7 @@ export const projectView = {
       designValue: '4021.52t',
       percentage: '72.37%',
       status: 1, // 1 正常 0 预警  可参考
-      type: '1',
+      type: 2,
       volume: '200万元',
       department: '李四'
     },
@@ -200,7 +200,7 @@ export const projectView = {
       designValue: '4021.52t',
       percentage: '72.37%',
       status: 1, // 1 正常 0 预警  可参考
-      type: '1',
+      type: 1,
       volume: '200万元',
       department: '李四'
     },
@@ -211,7 +211,7 @@ export const projectView = {
       designValue: '4021.52t',
       percentage: '72.37%',
       status: 1, // 1 正常 0 预警  可参考
-      type: '1',
+      type: 2,
       volume: '200万元',
       department: '李四'
     },
@@ -222,7 +222,7 @@ export const projectView = {
       designValue: '4021.52t',
       percentage: '72.37%',
       status: 1, // 1 正常 0 预警  可参考
-      type: '1',
+      type: 2,
       volume: '200万元',
       department: '李四'
     },
@@ -233,7 +233,7 @@ export const projectView = {
       designValue: '4021.52t',
       percentage: '72.37%',
       status: 1, // 1 正常 0 预警  可参考
-      type: '1',
+      type: 1,
       volume: '200万元',
       department: '李四'
     },
@@ -244,7 +244,7 @@ export const projectView = {
       designValue: '4021.52t',
       percentage: '72.37%',
       status: 1, // 1 正常 0 预警  可参考
-      type: '1',
+      type: 2,
       volume: '200万元',
       department: '李四'
     }
@@ -261,7 +261,7 @@ export const projectView = {
     }
   ],
   // 月度select列表数据
-  monthList: [1,2,3,4,5,6,7,8,9,10,11,12]
+  monthList: ['月度统计','季度统计','年度统计']
 }
 
 /**
@@ -272,36 +272,90 @@ export const projectQuery = {
   // 项目名称
   projectName: [
     {
-      label: '名称1',
-      value: 0
+      label: '南京金融城超高层监测项目',
+      value: 0,
+      parentValue:0
     }
   ],
   // 项目标段
   projectSection: [
     {
       label: '标段1',
-      value: 0
+      value: 1,
+      parentValue:0
+    }
+  ],
+  projectSection: [
+    {
+      label: '标段2',
+      value: 2,
+      parentValue:0
     }
   ],
   // 子工程,
   subProject: [
     {
       label: '子工程1',
-      value: 0
+      value: 3,
+      parentValue:1
+    }
+  ],
+  subProject: [
+    {
+      label: '子工程2',
+      value: 4,
+      parentValue:1
+    }
+  ],
+  subProject: [
+    {
+      label: '子工程3',
+      value: 5,
+      parentValue:2
+    }
+  ],
+  subProject: [
+    {
+      label: '子工程4',
+      value: 6,
+      parentValue:2
     }
   ],
   // 构造
   projectConstruct: [
     {
       label: '构造1',
-      value: 0
+      value: 7,
+      parentValue:3
+    }
+  ],
+  projectConstruct: [
+    {
+      label: '构造2',
+      value: 8,
+      parentValue:4
+    }
+  ],
+  projectConstruct: [
+    {
+      label: '构造3',
+      value: 9,
+      parentValue:5
+    }
+  ],
+  projectConstruct: [
+    {
+      label: '构造4',
+      value: 10,
+      parentValue:6
     }
   ],
   // 构建
   projectComponent: [
     {
       label: '构建1',
-      value: 0
+      value: 0,
+      parentValue:2
     }
   ],
   // 工序
