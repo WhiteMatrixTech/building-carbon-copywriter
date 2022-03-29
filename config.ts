@@ -263,3 +263,66 @@ export const projectView = {
   // 月度select列表数据
   monthList: [1,2,3,4,5,6,7,8,9,10,11,12]
 }
+
+/**
+ * 项目检索
+ */
+
+export const projectQuery = {
+  // 项目名称
+  projectName: [
+    {
+      label: '名称1',
+      value: 0
+    }
+  ],
+  // 项目标段
+  projectSection: [
+    {
+      label: '标段1',
+      value: 0
+    }
+  ],
+  // 子工程,
+  subProject: [
+    {
+      label: '子工程1',
+      value: 0
+    }
+  ],
+  // 构造
+  projectConstruct: [
+    {
+      label: '构造1',
+      value: 0
+    }
+  ],
+  // 构建
+  projectComponent: [
+    {
+      label: '构建1',
+      value: 0
+    }
+  ],
+  // 工序
+  projectProcess: [
+    {
+      label: '工序1',
+      value: 0
+    }
+  ],
+  // 材料 
+  projectMaterial: [
+    {
+      label: '材料1',
+      value: 0
+    }
+  ],
+  // 供应商
+  projectSupplier: [
+    {
+      label: '供应商1',
+      value: 0
+    }
+  ],
+}
