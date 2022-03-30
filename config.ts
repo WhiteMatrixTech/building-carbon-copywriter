@@ -272,62 +272,174 @@ export const projectQuery = {
   // 项目名称
   projectName: [
     {
-      label: '南京金融城超高层监测项目',
-      value: 0,
-      parentValue:0
+      label: '南京跨省高架项目',
+      value: 1,
+      id: '01'
     }
   ],
   // 项目标段
   projectSection: [
     {
-      label: '标段1',
+      label: '标段1：桥梁基础工程',
       value: 1,
-      parentValue:0
+      parentId: '01',
+      id: '02'
+    },
+    {
+      label: '标段2：桥面及附属工程',
+      value: 2,
+      id: '03',
+      parentId: '01'
     }
   ],
   // 子工程,
   subProject: [
     {
-      label: '子工程1',
-      value: 3,
-      parentValue:1
+      label: '基础及下部构造',
+      value: 1,
+      id: '04',
+      parentId: '02'
+    },
+    {
+      label: '上部分构造现场浇筑',
+      value: 2,
+      id: '05',
+      parentId: '03'
     }
   ],
   // 构造
   projectConstruct: [
     {
-      label: '构造1',
-      value: 7,
-      parentValue:3
+      label: '桥台',
+      value: 1,
+      id: '06',
+      parentId: '04'
+    },
+    {
+      label: '桥墩',
+      value: 2,
+      id: '07',
+      parentId: '04'
+    },
+    {
+      label: '桥面',
+      value: 3,
+      id: '08',
+      parentId: '05'
     }
   ],
   // 构建
   projectComponent: [
     {
-      label: '构建1',
-      value: 0,
-      parentValue:2
+      label: '桥台A',
+      value: 1,
+      id: '09',
+      parentId: '06'
+    },
+    {
+      label: '桥台B',
+      value: 2,
+      id: '10',
+      parentId: '06'
+    },
+    {
+      label: '桥墩A',
+      value: 3,
+      id: '11',
+      parentId: '07'
+    },
+    {
+      label: '桥墩B',
+      value: 4,
+      id: '12',
+      parentId: '07'
+    },
+    {
+      label: '桥面A',
+      value: 5,
+      id: '13',
+      parentId: '08'
     }
   ],
   // 工序
   projectProcess: [
     {
-      label: '工序1',
-      value: 0
+      label: '扩大基础',
+      value: 1,
+      id: '14',
+      parentId: '09'
+    },
+    {
+      label: '台身施工',
+      value: 2,
+      id: '15',
+      parentId: '09'
+    },
+    {
+      label: '台背回填',
+      value: 3,
+      id: '16',
+      parentId: '09'
     }
   ],
   // 材料 
   projectMaterial: [
     {
-      label: '材料1',
-      value: 0
+      label: '混凝土',
+      value: 1,
+      id: '17',
+      parentId: '14'
+    },
+    {
+      label: '砂浆',
+      value: 2,
+      id: '18',
+      parentId: '14'
+    },
+    {
+      label: '地板',
+      value: 3,
+      id: '19',
+      parentId: '15'
+    },
+    {
+      label: '钢筋',
+      value: 4,
+      id: '20',
+      parentId: '15'
     }
   ],
   // 供应商
   projectSupplier: [
     {
-      label: '供应商1',
-      value: 0
+      label: '南京宁新普迪混凝土有限公司',
+      value: 1,
+      id: '21',
+      parentId: '17'
+    },
+    {
+      label: '南京新港混凝土有限公司',
+      value: 1,
+      id: '22',
+      parentId: '17'
+    },
+    {
+      label: '南京恒基混凝土有限公司',
+      value: 2,
+      id: '23',
+      parentId: '17'
+    },
+    {
+      label: '苏州荣平砂浆建材有限公司',
+      value: 3,
+      id: '24',
+      parentId: '18'
+    },
+    {
+      label: '杭州久亚发建筑材料有限公司',
+      value: 4,
+      id: '25',
+      parentId: '18'
     }
   ],
 }
