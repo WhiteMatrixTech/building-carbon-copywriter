@@ -282,14 +282,14 @@ export const projectQuery = {
     {
       label: '标段1：桥梁基础工程',
       value: 1,
-      parentId: '01',
+      parentCode: '01',
       id: '02'
     },
     {
       label: '标段2：桥面及附属工程',
       value: 2,
       id: '03',
-      parentId: '01'
+      parentCode: '01'
     }
   ],
   // 子工程,
