@@ -282,14 +282,14 @@ export const projectQuery = {
     {
       label: '标段1：桥梁基础工程',
       value: 1,
-      parentCode: '01',
+      parent: '01',
       id: '02'
     },
     {
       label: '标段2：桥面及附属工程',
       value: 2,
       id: '03',
-      parentCode: '01'
+      parent: '01'
     }
   ],
   // 子工程,
@@ -298,13 +298,13 @@ export const projectQuery = {
       label: '基础及下部构造',
       value: 1,
       id: '04',
-      parentCode: '02'
+      parent: '02'
     },
     {
       label: '上部分构造现场浇筑',
       value: 2,
       id: '05',
-      parentCode: '03'
+      parent: '03'
     }
   ],
   // 构造
@@ -313,19 +313,19 @@ export const projectQuery = {
       label: '桥台',
       value: 1,
       id: '06',
-      parentCode: '04'
+      parent: '04'
     },
     {
       label: '桥墩',
       value: 2,
       id: '07',
-      parentCode: '04'
+      parent: '04'
     },
     {
       label: '桥面',
       value: 3,
       id: '08',
-      parentCode: '05'
+      parent: '05'
     }
   ],
   // 构建
@@ -334,31 +334,31 @@ export const projectQuery = {
       label: '桥台A',
       value: 1,
       id: '09',
-      parentCode: '06'
+      parent: '06'
     },
     {
       label: '桥台B',
       value: 2,
       id: '10',
-      parentCode: '06'
+      parent: '06'
     },
     {
       label: '桥墩A',
       value: 3,
       id: '11',
-      parentCode: '07'
+      parent: '07'
     },
     {
       label: '桥墩B',
       value: 4,
       id: '12',
-      parentCode: '07'
+      parent: '07'
     },
     {
       label: '桥面A',
       value: 5,
       id: '13',
-      parentCode: '08'
+      parent: '08'
     }
   ],
   // 工序
@@ -367,19 +367,19 @@ export const projectQuery = {
       label: '扩大基础',
       value: 1,
       id: '14',
-      parentCode: '09'
+      parent: '09'
     },
     {
       label: '台身施工',
       value: 2,
       id: '15',
-      parentCode: '09'
+      parent: '09'
     },
     {
       label: '台背回填',
       value: 3,
       id: '16',
-      parentCode: '09'
+      parent: '09'
     }
   ],
   // 材料 
@@ -388,25 +388,25 @@ export const projectQuery = {
       label: '混凝土',
       value: 1,
       id: '17',
-      parentCode: '14'
+      parent: '14'
     },
     {
       label: '砂浆',
       value: 2,
       id: '18',
-      parentCode: '14'
+      parent: '14'
     },
     {
       label: '地板',
       value: 3,
       id: '19',
-      parentCode: '15'
+      parent: '15'
     },
     {
       label: '钢筋',
       value: 4,
       id: '20',
-      parentCode: '15'
+      parent: '15'
     }
   ],
   // 供应商
@@ -415,31 +415,31 @@ export const projectQuery = {
       label: '南京宁新普迪混凝土有限公司',
       value: 1,
       id: '21',
-      parentCode: '17'
+      parent: '17'
     },
     {
       label: '南京新港混凝土有限公司',
       value: 1,
       id: '22',
-      parentCode: '17'
+      parent: '17'
     },
     {
       label: '南京恒基混凝土有限公司',
       value: 2,
       id: '23',
-      parentCode: '17'
+      parent: '17'
     },
     {
       label: '苏州荣平砂浆建材有限公司',
       value: 3,
       id: '24',
-      parentCode: '18'
+      parent: '18'
     },
     {
       label: '杭州久亚发建筑材料有限公司',
       value: 4,
       id: '25',
-      parentCode: '18'
+      parent: '18'
     }
   ],
 }
