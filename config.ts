@@ -419,25 +419,25 @@ export const projectQuery = {
     },
     {
       label: '南京新港混凝土有限公司',
-      value: 1,
+      value: 2,
       id: '22',
       parent: '17'
     },
     {
       label: '南京恒基混凝土有限公司',
-      value: 2,
+      value: 3,
       id: '23',
       parent: '17'
     },
     {
       label: '苏州荣平砂浆建材有限公司',
-      value: 3,
+      value: 4,
       id: '24',
       parent: '18'
     },
     {
       label: '杭州久亚发建筑材料有限公司',
-      value: 4,
+      value: 5,
       id: '25',
       parent: '18'
     }
