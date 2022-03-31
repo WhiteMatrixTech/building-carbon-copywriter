@@ -1,7 +1,7 @@
 /**
  * 首页相关文案
  */
-export const home = {
+ export const home = {
   /**
    * 首页轮播图
    */
@@ -274,21 +274,51 @@ export const projectQuery = {
     {
       label: '南京跨省高架项目',
       value: 1,
-      id: '01'
+      id: 1
+    },
+    {
+      label: '上海跨省高架项目',
+      value: 101,
+      id: 101
+    },
+    {
+      label: '武汉跨省高架项目',
+      value: 201,
+      id: 201
+    },
+    {
+      label: '长春跨省高架项目',
+      value: 301,
+      id: 301
+    },
+    {
+      label: '湖南跨省高架项目',
+      value: 4011,
+      id: 4011
+    },
+    {
+      label: '北京跨省高架项目',
+      value: 501,
+      id: 501
+    },
+    {
+      label: '深圳跨省高架项目',
+      value: 61,
+      id: 61
     }
   ],
   // 项目标段
   projectSection: [
     {
       label: '标段1：桥梁基础工程',
-      value: 1,
+      value: 2,
       parent: '01',
-      id: '02'
+      id: 2
     },
     {
       label: '标段2：桥面及附属工程',
-      value: 2,
-      id: '03',
+      value: 3,
+      id: 3,
       parent: '01'
     }
   ],
@@ -296,14 +326,14 @@ export const projectQuery = {
   subProject: [
     {
       label: '基础及下部构造',
-      value: 1,
-      id: '04',
+      value: 4,
+      id: 4,
       parent: '02'
     },
     {
       label: '上部分构造现场浇筑',
-      value: 2,
-      id: '05',
+      value: 5,
+      id: 5,
       parent: '03'
     }
   ],
@@ -311,53 +341,59 @@ export const projectQuery = {
   projectConstruct: [
     {
       label: '桥台',
-      value: 1,
-      id: '06',
+      value: 6,
+      id: 6,
       parent: '04'
     },
     {
       label: '桥墩',
-      value: 2,
-      id: '07',
+      value: 7,
+      id: 7,
       parent: '04'
     },
     {
       label: '桥面',
-      value: 3,
-      id: '08',
+      value: 8,
+      id: 8,
       parent: '05'
+    },
+    {
+      label: '测试测试',
+      value: 123,
+      id: 123,
+      parent: '2222'
     }
   ],
   // 构建
   projectComponent: [
     {
       label: '桥台A',
-      value: 1,
-      id: '09',
+      value: 9,
+      id: 9,
       parent: '06'
     },
     {
       label: '桥台B',
-      value: 2,
-      id: '10',
+      value: 10,
+      id: 10,
       parent: '06'
     },
     {
       label: '桥墩A',
-      value: 3,
-      id: '11',
+      value: 11,
+      id: 11,
       parent: '07'
     },
     {
       label: '桥墩B',
-      value: 4,
-      id: '12',
+      value: 12,
+      id: 12,
       parent: '07'
     },
     {
       label: '桥面A',
-      value: 5,
-      id: '13',
+      value: 13,
+      id: 13,
       parent: '08'
     }
   ],
@@ -365,20 +401,20 @@ export const projectQuery = {
   projectProcess: [
     {
       label: '扩大基础',
-      value: 1,
-      id: '14',
+      value: 14,
+      id: 14,
       parent: '09'
     },
     {
       label: '台身施工',
-      value: 2,
-      id: '15',
+      value: 15,
+      id: 15,
       parent: '09'
     },
     {
       label: '台背回填',
-      value: 3,
-      id: '16',
+      value: 16,
+      id: 16,
       parent: '09'
     }
   ],
@@ -386,26 +422,26 @@ export const projectQuery = {
   projectMaterial: [
     {
       label: '混凝土',
-      value: 1,
-      id: '17',
+      value: 17,
+      id: 17,
       parent: '14'
     },
     {
       label: '砂浆',
-      value: 2,
-      id: '18',
+      value: 18,
+      id: 18,
       parent: '14'
     },
     {
       label: '地板',
-      value: 3,
-      id: '19',
+      value: 19,
+      id: 19,
       parent: '15'
     },
     {
       label: '钢筋',
-      value: 4,
-      id: '20',
+      value: 20,
+      id: 20,
       parent: '15'
     }
   ],
@@ -413,32 +449,32 @@ export const projectQuery = {
   projectSupplier: [
     {
       label: '南京宁新普迪混凝土有限公司',
-      value: 1,
-      id: '21',
+      value: 21,
+      id: 21,
       parent: '17'
     },
     {
       label: '南京新港混凝土有限公司',
-      value: 2,
-      id: '22',
+      value: 22,
+      id: 22,
       parent: '17'
     },
     {
       label: '南京恒基混凝土有限公司',
-      value: 3,
-      id: '23',
+      value: 23,
+      id: 23,
       parent: '17'
     },
     {
       label: '苏州荣平砂浆建材有限公司',
-      value: 4,
-      id: '24',
+      value: 24,
+      id: 24,
       parent: '18'
     },
     {
       label: '杭州久亚发建筑材料有限公司',
-      value: 5,
-      id: '25',
+      value: 25,
+      id: 25,
       parent: '18'
     }
   ],
