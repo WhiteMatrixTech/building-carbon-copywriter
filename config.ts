@@ -106,158 +106,148 @@ export const projectView = {
   // 项目列表
   projectList: [
     {
-      id: 'JRCJC-01',
-      name: '南京金融城超高层监测项目',
-      currentValue: '1034.35t',
-      designValue: '2308.43t',
-      percentage: '44.81%',
+      id: 'CJEQ-01',
+      name: '南京长江二桥项目',
+      currentValue: '2039.14 / 3020.55',
+      designValue: '',
+      percentage: '',
       status: 1, // 1 正常 0 预警  可参考
-      type: 1,
-      volume: '3.5万㎡',
-      department: '建设公司1'
+      type: 1, //1 桥梁 2 隧道 3 道路 4 建筑 5 地铁
+      volume: '8000',
+      department: '桥梁部门'
     },
     {
-      id: 'ZYSC-02',
-      name: '南京中央商城项目',
-      currentValue: '2910.3t',
-      designValue: '4021.52t',
-      percentage: '72.37%',
+      id: 'JNXLGJSD-02',
+      name: '建宁西路过江隧道项目',
+      currentValue: '2910.3 / 4021.52',
+      designValue: '',
+      percentage: '',
       status: 1, // 1 正常 0 预警  可参考
-      type: 1,
-      volume: '200万元',
-      department: '李四'
+      type: 2, //1 桥梁 2 隧道 3 道路 4 建筑 5 地铁
+      volume: '3000',
+      department: '隧道部门'
     },
     {
-      id: 'TSG-03',
-      name: '南京市图书馆项目',
-      currentValue: '703.12t',
-      designValue: '780.33t',
-      percentage: '90.11%',
-      status: 0, // 1 正常 0 预警  可参考
-      type: 1,
-      volume: '200万元',
-      department: '李四'
+      id: 'RCGS-03',
+      name: '南京绕城高速项目',
+      currentValue: '703.12 / 780.33',
+      designValue: '',
+      percentage: '',
+      status: 2, // 1 正常 0 预警  可参考
+      type: 3,  //1 桥梁 2 隧道 3 道路 4 建筑 5 地铁
+      volume: '2000',
+      department: '道路部门'
     },
     {
-      id: 'ZYSC-02',
-      name: '南京会展中心项目',
-      currentValue: '1034.35t',
-      designValue: '2308.43t',
-      percentage: '44.81%',
+      id: 'GLYY-04',
+      name: '鼓楼区医院项目',
+      currentValue: '1034.35 / 2308.43',
+      designValue: '',
+      percentage: '',
       status: 1, // 1 正常 0 预警  可参考
-      type: 1,
-      volume: '200万元',
-      department: '李四'
+      type: 4, //1 桥梁 2 隧道 3 道路 4 建筑 5 地铁
+      volume: '3500',
+      department: '建筑部门'
     },
     {
-      id: 'ZYSC-02',
-      name: '南京跨省高架项目',
-      currentValue: '2039.14t',
+      id: 'DTSHX-05',
+      name: '南京地铁四号线项目',
+      currentValue: '2201.09 / 2300.78',
       designValue: '3020.55t',
       percentage: '67.51%',
+      status: 0, // 1 正常 0 预警  可参考
+      type: 5, //1 桥梁 2 隧道 3 道路 4 建筑 5 地铁
+      volume: '5000',
+      department: '地铁部门'
+    },
+    {
+      id: 'CJDQ-06',
+      name: '南京长江大桥项目',
+      currentValue: '57440.15 / 80600.13',
+      designValue: '',
+      percentage: '',
       status: 1, // 1 正常 0 预警  可参考
-      type: 1,
-      volume: '200万元',
-      department: '李四'
+      type: 1, //1 桥梁 2 隧道 3 道路 4 建筑 5 地铁
+      volume: '35000',
+      department: '桥梁部门'
+    },
+    {
+      id: 'CJSQ-07',
+      name: '南京长江三桥项目',
+      currentValue: '8200.49 / 10302.55',
+      designValue: '',
+      percentage: '',
+      status: 1, // 1 正常 0 预警  可参考
+      type: 1, //1 桥梁 2 隧道 3 道路 4 建筑 5 地铁
+      volume: '12000',
+      department: '桥梁部门'
+    },
+    {
+      id: 'HYLGJTD-08',
+      name: '和燕路过江通道项目',
+      currentValue: '6900.73 / 6550.23',
+      designValue: '',
+      percentage: '',
+      status: 0, // 1 正常 0 预警  可参考
+      type: 2, //1 桥梁 2 隧道 3 道路 4 建筑 5 地铁
+      volume: '7500元',
+      department: '隧道部门'
+    },
+    {
+      id: 'CJEQ-10',
+      name: '南京长江二桥项目',
+      currentValue: '22402.59 / 47620.78',
+      designValue: '',
+      percentage: '',
+      status: 1, // 1 正常 0 预警  可参考
+      type: 1, //1 桥梁 2 隧道 3 道路 4 建筑 5 地铁
+      volume: '12500',
+      department: '桥梁部门'
+    },
+    {
+      id: 'PKKSL-09',
+      name: '浦口快速路项目',
+      currentValue: '393.15 / 600.3',
+      designValue: '',
+      percentage: '',
+      status: 1, // 1 正常 0 预警  可参考
+      type: 3, //1 桥梁 2 隧道 3 道路 4 建筑 5 地铁
+      volume: '2000',
+      department: '道路部门'
     },
     {
       id: 'ZYSC-02',
-      name: '南京中央商城项目',
-      currentValue: '2910.3t',
-      designValue: '4021.52t',
-      percentage: '72.37%',
+      name: '南京长江五桥项目',
+      currentValue: '4849.33 / 7293.15',
+      designValue: '',
+      percentage: '',
       status: 1, // 1 正常 0 预警  可参考
-      type: 2,
-      volume: '200万元',
-      department: '李四'
-    },
-    {
-      id: 'ZYSC-02',
-      name: '南京中央商城项目',
-      currentValue: '2910.3t',
-      designValue: '4021.52t',
-      percentage: '72.37%',
-      status: 1, // 1 正常 0 预警  可参考
-      type: 2,
-      volume: '200万元',
-      department: '李四'
-    },
-    {
-      id: 'ZYSC-02',
-      name: '南京中央商城项目',
-      currentValue: '2910.3t',
-      designValue: '4021.52t',
-      percentage: '72.37%',
-      status: 1, // 1 正常 0 预警  可参考
-      type: 2,
-      volume: '200万元',
-      department: '李四'
-    },
-    {
-      id: 'ZYSC-02',
-      name: '南京中央商城项目',
-      currentValue: '2910.3t',
-      designValue: '4021.52t',
-      percentage: '72.37%',
-      status: 1, // 1 正常 0 预警  可参考
-      type: 1,
-      volume: '200万元',
-      department: '李四'
-    },
-    {
-      id: 'ZYSC-02',
-      name: '南京中央商城项目',
-      currentValue: '2910.3t',
-      designValue: '4021.52t',
-      percentage: '72.37%',
-      status: 1, // 1 正常 0 预警  可参考
-      type: 2,
-      volume: '200万元',
-      department: '李四'
-    },
-    {
-      id: 'ZYSC-02',
-      name: '南京中央商城项目',
-      currentValue: '2910.3t',
-      designValue: '4021.52t',
-      percentage: '72.37%',
-      status: 1, // 1 正常 0 预警  可参考
-      type: 2,
-      volume: '200万元',
-      department: '李四'
-    },
-    {
-      id: 'ZYSC-02',
-      name: '南京中央商城项目',
-      currentValue: '2910.3t',
-      designValue: '4021.52t',
-      percentage: '72.37%',
-      status: 1, // 1 正常 0 预警  可参考
-      type: 1,
-      volume: '200万元',
-      department: '李四'
-    },
-    {
-      id: 'ZYSC-02',
-      name: '南京中央商城项目',
-      currentValue: '2910.3t',
-      designValue: '4021.52t',
-      percentage: '72.37%',
-      status: 1, // 1 正常 0 预警  可参考
-      type: 2,
-      volume: '200万元',
-      department: '李四'
+      type: 1, //1 桥梁 2 隧道 3 道路 4 建筑 5 地铁
+      volume: '5000',
+      department: '桥梁部门'
     }
   ],
   // 项目类型select列表
   projectType: [
     {
-      name: '生产开发项目',
+      name: '桥梁项目',
       value: '1'
     },
     {
-      name: '课题示范项目',
+      name: '隧道项目',
       value: '2'
+    },
+    {
+      name: '道路项目',
+      value: '3'
+    },
+    {
+      name: '建筑项目',
+      value: '4'
+    },
+    {
+      name: '地铁项目',
+      value: '5'
     }
   ],
   // 月度select列表数据
@@ -478,4 +468,190 @@ export const projectQuery = {
       parent: '18'
     }
   ],
+}
+
+/**
+ * 材料总览
+ */
+ export const materialsView = {
+  // 材料列表
+  materialsList: [
+    {
+      id: 'DYPDHNT-30',
+      type: 1, //1 混凝土 2 装饰石材 3 砂浆 4 地板 5 钢筋 6 空调板 7 木材 8 陶瓷 9 水泥 10 陶瓷
+      name: '商品混凝土',
+      specification: 'C30',
+      carbon: '450.246kgCO2/t',
+      level: 2,
+      department: '南京普迪混凝土有限公司'
+    },
+    {
+      id: 'PDCSNJNHNT-20',
+      type: 1, //1 混凝土 2 装饰石材 3 砂浆 4 地板 5 钢筋 6 空调板 7 木材 8 陶瓷 9 水泥 10 陶瓷
+      name: '纯水泥胶凝混凝土',
+      specification: 'C20',
+      carbon: '451.372kgCO2/m3',
+      level: 3,
+      department: '南京普迪混凝土有限公司'
+    },
+    {
+      id: 'ZLSCSMB-800',
+      type: 2, //1 混凝土 2 装饰石材 3 砂浆 4 地板 5 钢筋 6 空调板 7 木材 8 陶瓷 9 水泥 10 陶瓷
+      name: '石材饰面板',
+      specification: '800mm×800mm',
+      carbon: '220kgCO2/t',
+      level: 2,
+      department: '南京中联混凝土有限公司'
+    },
+    {
+      id: 'DYPDHNT-30',
+      type: 1, //1 混凝土 2 装饰石材 3 砂浆 4 地板 5 钢筋 6 空调板 7 木材 8 陶瓷 9 水泥 10 陶瓷
+      name: '商品混凝土',
+      specification: 'C30',
+      carbon: '450.246kgCO2/t',
+      level: 2,
+      department: '南京普迪混凝土有限公司'
+    }
+  ],
+  // 材料类型select列表
+  materialsType: [
+    {
+      name: '混凝土',
+      value: '1'
+    },
+    {
+      name: '装饰石材',
+      value: '2'
+    },
+    {
+      name: '砂浆',
+      value: '3'
+    },
+    {
+      name: '地板',
+      value: '4'
+    },
+    {
+      name: '钢筋',
+      value: '5'
+    },
+    {
+      name: '空调板',
+      value: '6'
+    },
+    {
+      name: '木材',
+      value: '7'
+    },
+    {
+      name: '陶瓷',
+      value: '8'
+    },
+    {
+      name: '水泥',
+      value: '9'
+    },
+    {
+      name: '陶瓷',
+      value: '10'
+    }
+  ],
+  // 月度select列表数据
+  monthList: ['月度统计','季度统计','年度统计']
+}
+
+/**
+ * 总包总览 
+ */
+ export const totalView = {
+  // 总包列表
+  totalList: [
+    {
+      name: '中建一局',
+      totalcarbon: '30492.56',
+      designcarbon: '50395.44',
+      type: 2,
+      percent: '76%'
+    },
+    {
+      name: '中建四局',
+      totalcarbon: '43203.73',
+      designcarbon: '73025.34',
+      type: 1,
+      percent: '81%'
+    }
+  ],
+  // 总包类型select列表
+  totalType: [
+    {
+      name: '1',
+      value: '1'
+    },
+    {
+      name: '2',
+      value: '2'
+    },
+    {
+      name: '3',
+      value: '3'
+    },
+    {
+      name: '4',
+      value: '4'
+    }
+  ],
+  // 月度select列表数据
+  monthList: ['月度统计','季度统计','年度统计']
+}
+
+/**
+ * 供应商总览
+ */
+ export const supplierView = {
+  // 供应商列表
+  supplierList: [
+    {
+      id: 'HNT-NJNXPD',
+      name: '南京宁新普迪混凝土有限公司',
+      type: 1, //1 混凝土 2 水泥 3 砂浆 4 石材 5 涂料 6 木材
+      level: 2,
+      carbon: '450.246kgCO2/t',
+    },
+    {
+      id: 'HNT-NJXG',
+      name: '南京新港混凝土有限公司',
+      type: 1, //1 混凝土 2 水泥 3 砂浆 4 石材 5 涂料 6 木材
+      level: 1,
+      carbon: '27439.35',
+    }
+  ],
+  // 供应商类型select列表
+  supplierType: [
+    {
+      name: '混凝土',
+      value: '1'
+    },
+    {
+      name: '水泥',
+      value: '2'
+    },
+    {
+      name: '砂浆',
+      value: '3'
+    },
+    {
+      name: '石材',
+      value: '4'
+    },
+    {
+      name: '涂料',
+      value: '5'
+    },
+    {
+      name: '木材',
+      value: '6'
+    }
+  ],
+  // 月度select列表数据
+  monthList: ['月度统计','季度统计','年度统计']
 }
