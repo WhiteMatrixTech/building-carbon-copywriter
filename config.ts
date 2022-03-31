@@ -62,7 +62,7 @@
       link: '/'
     },
     {
-      cover: 'https://matrixlabs-resource.s3.ap-northeast-1.amazonaws.com/Test+img/Rectangle+5+(1).png,
+      cover: 'https://matrixlabs-resource.s3.ap-northeast-1.amazonaws.com/Test+img/Rectangle+5+(1).png',
       title: '南京长江二桥项目',
       link: '/'
     },
