@@ -295,7 +295,32 @@ export const projectQuery = {
       label: '深圳跨省高架项目',
       value: 61,
       id: 61
-    }
+    },
+    {
+      label: '南京1跨省高架项目',
+      value: 62,
+      id: 62
+    },
+    {
+      label: '南京2跨省高架项目',
+      value: 63,
+      id: 63
+    },
+    {
+      label: '南京3跨省高架项目',
+      value: 64,
+      id: 64
+    },
+    {
+      label: '南京4跨省高架项目',
+      value: 65,
+      id: 65
+    },
+    {
+      label: '南京5跨省高架项目',
+      value: 66,
+      id: 66
+    },
   ],
   // 项目标段
   projectSection: [
