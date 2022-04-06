@@ -264,7 +264,25 @@ export const projectQuery = {
     {
       label: '南京跨省高架项目',
       value: 1,
-      id: 1
+      id: 1,
+      // 项目的图表mock
+      projectCurrentEmission: 2049,
+      projectDesignedEmission: 3020,
+      unitCurrentEmission: 1230,
+      unitDesignedEmission: 1230,
+      constructionProgress: 64,
+      buildEmission: {
+        currentEmission: 25,
+        designedEmission: 50
+      },
+      transportEmission: {
+        currentEmission: 25,
+        designedEmission: 50
+      },
+      constructionEmission: {
+        currentEmission: 25,
+        designedEmission: 50
+      }
     },
     {
       label: '上海跨省高架项目',
@@ -343,7 +361,38 @@ export const projectQuery = {
       label: '基础及下部构造',
       value: 4,
       id: 4,
-      parent: '02'
+      parent: '02',
+      // 子工程的图表mock
+      subProjectCurrentEmission: 2049,
+      subProjectDesignedEmission: 3020,
+      unitCurrentEmission: 1230,
+      unitDesignedEmission: 1230,
+      emissionRatio: 64,
+      constructionProgress: 64,
+      buildEmission: {
+        currentEmission: 25,
+        designedEmission: 50
+      },
+      transportEmission: {
+        currentEmission: 25,
+        designedEmission: 50
+      },
+      constructionEmission: {
+        currentEmission: 25,
+        designedEmission: 50
+      },
+      designedEmissionRatio: {
+        buildRatio: 65,
+        transportRatio: 9,
+        workRatio: 18
+      },
+      actuallyEmissionRatio: {
+        buildRatio: 65,
+        transportRatio: 9,
+        workRatio: 18
+      },
+      designedEmissionTrend: [10000, 12000,  10000,  15000, 16000, 17000, 14000,15000, 17000, 18000, 19000, 22000],
+      actuallyEmissionTrend: [12000, 10000, 14000, 11000, 14000, 15000, 19000, 22000]
     },
     {
       label: '上部分构造现场浇筑',
