@@ -106,6 +106,7 @@
       name: '南京中央商城项目',
       currentValue: '2039.14 3020.55 68%',
       status: 1,// 1 正常 0 预警
+      link: 'https://build-carbon.oss-cn-beijing.aliyuncs.com/projectDetails?projectId=1&queryGroup=%5B%5D'
     }
   ],
   /**
@@ -117,6 +118,7 @@
       name: '南京市图书馆项目',
       currentValue: '703.12 780.33 90%',
       status: 1,// 1 正常 0 预警
+      link: 'https://build-carbon.oss-cn-beijing.aliyuncs.com/projectDetails?projectId=1&queryGroup=%5B%5D'
     }
   ]
 }
