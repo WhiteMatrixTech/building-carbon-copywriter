@@ -102,15 +102,33 @@ export const home = {
     },
     {
       cover:
-        "https://matrixlabs-resource.s3.ap-northeast-1.amazonaws.com/Test+img/Rectangle+5+(9).png",
-      title: "宁合高速公路项目",
-      link: "/",
-    },
-    {
-      cover:
         "https://matrixlabs-resource.s3.ap-northeast-1.amazonaws.com/Test+img/Rectangle+5+(4).png",
       title: "宁马高速公路项目",
       link: "/",
+    },
+  ],
+  /**
+   * 实时监控大屏1
+   */
+  monitoringA: [
+    {
+      id: "1",
+      name: "南京中央商城项目",
+      currentValue: "2039.14 3020.55 68%",
+      status: 1, // 1 正常 0 预警
+      link: "https://build-carbon.oss-cn-beijing.aliyuncs.com/projectDetails?projectId=1&queryGroup=%5B%5D",
+    },
+  ],
+  /**
+   * 实时监控大屏2
+   */
+  monitoringB: [
+    {
+      id: "1",
+      name: "南京市图书馆项目",
+      currentValue: "703.12 780.33 90%",
+      status: 1, // 1 正常 0 预警
+      link: "https://build-carbon.oss-cn-beijing.aliyuncs.com/projectDetails?projectId=1&queryGroup=%5B%5D",
     },
   ],
 };
