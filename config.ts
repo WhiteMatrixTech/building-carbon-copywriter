@@ -106,6 +106,12 @@ export const home = {
       title: "宁马高速公路项目",
       link: "/",
     },
+     {
+      cover:
+        "https://matrixlabs-resource.s3.ap-northeast-1.amazonaws.com/Test+img/Rectangle+5+(1).png",
+      title: "南京长江二桥项目",
+      link: "/",
+    }
   ],
   /**
    * 实时监控大屏1
@@ -114,10 +120,87 @@ export const home = {
     {
       id: "1",
       name: "南京中央商城项目",
-      currentValue: "2039.14 3020.55 68%",
+      currentValue: "2910.3 / 4021.52 / 72%",
       status: 1, // 1 正常 0 预警
       link: "https://build-carbon.oss-cn-beijing.aliyuncs.com/projectDetails?projectId=1&queryGroup=%5B%5D",
     },
+    {
+      id: "2",
+      name: "南京金融城超高层监测项目",
+      currentValue: "2039.14 / 3020.55 / 68%",
+      status: 1, // 1 正常 0 预警
+      link: "https://build-carbon.oss-cn-beijing.aliyuncs.com/projectDetails?projectId=1&queryGroup=%5B%5D",
+    },
+    {
+      id: "3",
+      name: "南京市图书馆项目",
+      currentValue: "703.12 / 780.33 / 90%",
+      status: 0, // 1 正常 0 预警
+      link: "https://build-carbon.oss-cn-beijing.aliyuncs.com/projectDetails?projectId=1&queryGroup=%5B%5D",
+    },
+    {
+      id: "4",
+      name: "鼓楼区医院项目",
+      currentValue: "1034.35 / 2308.43 / 96%",
+      status: 0, // 1 正常 0 预警
+      link: "https://build-carbon.oss-cn-beijing.aliyuncs.com/projectDetails?projectId=1&queryGroup=%5B%5D",
+    },
+    {
+      id: "5",
+      name: "南京地铁四号线项目",
+      currentValue: "2201.09 / 2300.78 / 90%",
+      status: 1, // 1 正常 0 预警
+      link: "https://build-carbon.oss-cn-beijing.aliyuncs.com/projectDetails?projectId=1&queryGroup=%5B%5D",
+    },
+    {
+      id: "6",
+      name: "江宁医院项目",
+      currentValue: "440.15 / 600.13 / 73%",
+      status: 1, // 1 正常 0 预警
+      link: "https://build-carbon.oss-cn-beijing.aliyuncs.com/projectDetails?projectId=1&queryGroup=%5B%5D",
+    },
+    {
+      id: "7",
+      name: "南京长江二桥项目",
+      currentValue: "200.49 / 302.55 / 66%",
+      status: 1, // 1 正常 0 预警
+      link: "https://build-carbon.oss-cn-beijing.aliyuncs.com/projectDetails?projectId=1&queryGroup=%5B%5D",
+    },
+    {
+      id: "8",
+      name: "南京绕城高速项目",
+      currentValue: "900.73 / 1350.23 / 67%",
+      status: 1, // 1 正常 0 预警
+      link: "https://build-carbon.oss-cn-beijing.aliyuncs.com/projectDetails?projectId=1&queryGroup=%5B%5D",
+    },
+    {
+      id: "9",
+      name: "鼓楼区医院项目",
+      currentValue: "393.15 / 600.3 / 65%",
+      status: 1, // 1 正常 0 预警
+      link: "https://build-carbon.oss-cn-beijing.aliyuncs.com/projectDetails?projectId=1&queryGroup=%5B%5D",
+    },
+    {
+      id: "10",
+      name: "和燕路过江通道项目",
+      currentValue: "402.59 / 620.78 / 64%",
+      status: 1, // 1 正常 0 预警
+      link: "https://build-carbon.oss-cn-beijing.aliyuncs.com/projectDetails?projectId=1&queryGroup=%5B%5D",
+    },
+    {
+      id: "11",
+      name: "浦口快速路项目",
+      currentValue: "1503.63 / 3200.55 / 47%",
+      status: 1, // 1 正常 0 预警
+      link: "https://build-carbon.oss-cn-beijing.aliyuncs.com/projectDetails?projectId=1&queryGroup=%5B%5D",
+    },
+    {
+      id: "12",
+      name: "南京长江五桥项目",
+      currentValue: "899.32 / 1500.29 / 59%",
+      status: 1, // 1 正常 0 预警
+      link: "https://build-carbon.oss-cn-beijing.aliyuncs.com/projectDetails?projectId=1&queryGroup=%5B%5D",
+    }
   ],
   /**
    * 实时监控大屏2
@@ -125,11 +208,89 @@ export const home = {
   monitoringB: [
     {
       id: "1",
-      name: "南京市图书馆项目",
-      currentValue: "703.12 780.33 90%",
+      name: "南京中央商城项目",
+      currentValue: "2910.3 / 4021.52 / 72%",
       status: 1, // 1 正常 0 预警
       link: "https://build-carbon.oss-cn-beijing.aliyuncs.com/projectDetails?projectId=1&queryGroup=%5B%5D",
     },
+    {
+      id: "2",
+      name: "南京金融城超高层监测项目",
+      currentValue: "2039.14 / 3020.55 / 68%",
+      status: 1, // 1 正常 0 预警
+      link: "https://build-carbon.oss-cn-beijing.aliyuncs.com/projectDetails?projectId=1&queryGroup=%5B%5D",
+    },
+    {
+      id: "3",
+      name: "南京市图书馆项目",
+      currentValue: "703.12 / 780.33 / 90%",
+      status: 0, // 1 正常 0 预警
+      link: "https://build-carbon.oss-cn-beijing.aliyuncs.com/projectDetails?projectId=1&queryGroup=%5B%5D",
+    },
+    {
+      id: "4",
+      name: "鼓楼区医院项目",
+      currentValue: "1034.35 / 2308.43 / 96%",
+      status: 0, // 1 正常 0 预警
+      link: "https://build-carbon.oss-cn-beijing.aliyuncs.com/projectDetails?projectId=1&queryGroup=%5B%5D",
+    },
+    {
+      id: "5",
+      name: "南京地铁四号线项目",
+      currentValue: "2201.09 / 2300.78 / 90%",
+      status: 1, // 1 正常 0 预警
+      link: "https://build-carbon.oss-cn-beijing.aliyuncs.com/projectDetails?projectId=1&queryGroup=%5B%5D",
+    },
+    {
+      id: "6",
+      name: "江宁医院项目",
+      currentValue: "440.15 / 600.13 / 73%",
+      status: 1, // 1 正常 0 预警
+      link: "https://build-carbon.oss-cn-beijing.aliyuncs.com/projectDetails?projectId=1&queryGroup=%5B%5D",
+    },
+    {
+      id: "7",
+      name: "南京长江二桥项目",
+      currentValue: "200.49 / 302.55 / 66%",
+      status: 1, // 1 正常 0 预警
+      link: "https://build-carbon.oss-cn-beijing.aliyuncs.com/projectDetails?projectId=1&queryGroup=%5B%5D",
+    },
+    {
+      id: "8",
+      name: "南京绕城高速项目",
+      currentValue: "900.73 / 1350.23 / 67%",
+      status: 1, // 1 正常 0 预警
+      link: "https://build-carbon.oss-cn-beijing.aliyuncs.com/projectDetails?projectId=1&queryGroup=%5B%5D",
+    },
+    {
+      id: "9",
+      name: "鼓楼区医院项目",
+      currentValue: "393.15 / 600.3 / 65%",
+      status: 1, // 1 正常 0 预警
+      link: "https://build-carbon.oss-cn-beijing.aliyuncs.com/projectDetails?projectId=1&queryGroup=%5B%5D",
+    },
+    {
+      id: "10",
+      name: "和燕路过江通道项目",
+      currentValue: "402.59 / 620.78 / 64%",
+      status: 1, // 1 正常 0 预警
+      link: "https://build-carbon.oss-cn-beijing.aliyuncs.com/projectDetails?projectId=1&queryGroup=%5B%5D",
+    },
+    {
+      id: "11",
+      name: "浦口快速路项目",
+      currentValue: "1503.63 / 3200.55 / 47%",
+      status: 1, // 1 正常 0 预警
+      link: "https://build-carbon.oss-cn-beijing.aliyuncs.com/projectDetails?projectId=1&queryGroup=%5B%5D",
+    },
+    {
+      id: "12",
+      name: "南京长江五桥项目",
+      currentValue: "899.32 / 1500.29 / 59%",
+      status: 1, // 1 正常 0 预警
+      link: "https://build-carbon.oss-cn-beijing.aliyuncs.com/projectDetails?projectId=1&queryGroup=%5B%5D",
+    }
+  ],
   ],
 };
 
