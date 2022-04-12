@@ -106,7 +106,7 @@ export const home = {
       title: "宁马高速公路项目",
       link: "/",
     },
-     {
+    {
       cover:
         "https://matrixlabs-resource.s3.ap-northeast-1.amazonaws.com/Test+img/Rectangle+5+(1).png",
       title: "南京长江二桥项目",
@@ -290,7 +290,6 @@ export const home = {
       status: 1, // 1 正常 0 预警
       link: "https://build-carbon.oss-cn-beijing.aliyuncs.com/projectDetails?projectId=1&queryGroup=%5B%5D",
     }
-  ],
   ],
 };
 
