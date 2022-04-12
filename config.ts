@@ -309,6 +309,7 @@ export const projectView = {
       type: 1, //1 桥梁 2 隧道 3 道路 4 建筑 5 地铁
       volume: "8000",
       department: "桥梁部门",
+      duty:"中国交通建设"
     },
     {
       id: "JNXLGJSD-02",
@@ -320,6 +321,7 @@ export const projectView = {
       type: 2, //1 桥梁 2 隧道 3 道路 4 建筑 5 地铁
       volume: "3000",
       department: "隧道部门",
+      duty:"中国交通建设"
     },
     {
       id: "RCGS-03",
@@ -331,6 +333,7 @@ export const projectView = {
       type: 3, //1 桥梁 2 隧道 3 道路 4 建筑 5 地铁
       volume: "2000",
       department: "道路部门",
+      duty:"中国交通建设"
     },
     {
       id: "GLYY-04",
@@ -342,6 +345,7 @@ export const projectView = {
       type: 4, //1 桥梁 2 隧道 3 道路 4 建筑 5 地铁
       volume: "3500",
       department: "建筑部门",
+      duty:"中国交通建设"
     },
     {
       id: "DTSHX-05",
@@ -353,6 +357,7 @@ export const projectView = {
       type: 5, //1 桥梁 2 隧道 3 道路 4 建筑 5 地铁
       volume: "5000",
       department: "地铁部门",
+      duty:"中国交通建设"
     },
     {
       id: "CJDQ-06",
@@ -364,6 +369,7 @@ export const projectView = {
       type: 1, //1 桥梁 2 隧道 3 道路 4 建筑 5 地铁
       volume: "35000",
       department: "桥梁部门",
+      duty:"中国交通建设"
     },
     {
       id: "CJSQ-07",
@@ -375,6 +381,7 @@ export const projectView = {
       type: 1, //1 桥梁 2 隧道 3 道路 4 建筑 5 地铁
       volume: "12000",
       department: "桥梁部门",
+      duty:"中国交通建设"
     },
     {
       id: "HYLGJTD-08",
@@ -386,6 +393,7 @@ export const projectView = {
       type: 2, //1 桥梁 2 隧道 3 道路 4 建筑 5 地铁
       volume: "7500元",
       department: "隧道部门",
+      duty:"中国交通建设"
     },
     {
       id: "CJEQ-10",
@@ -397,6 +405,7 @@ export const projectView = {
       type: 1, //1 桥梁 2 隧道 3 道路 4 建筑 5 地铁
       volume: "12500",
       department: "桥梁部门",
+      duty:"中国交通建设"
     },
     {
       id: "PKKSL-09",
@@ -408,6 +417,7 @@ export const projectView = {
       type: 3, //1 桥梁 2 隧道 3 道路 4 建筑 5 地铁
       volume: "2000",
       department: "道路部门",
+      duty:"中国交通建设"
     },
     {
       id: "ZYSC-02",
@@ -419,6 +429,7 @@ export const projectView = {
       type: 1, //1 桥梁 2 隧道 3 道路 4 建筑 5 地铁
       volume: "5000",
       department: "桥梁部门",
+      duty:"中国交通建设"
     },
   ],
   // 项目类型select列表
@@ -2224,6 +2235,100 @@ export const supplierView = {
     },
     {
       name: "木材",
+      value: "6",
+    },
+  ],
+  // 月度select列表数据
+  monthList: ["月度统计", "季度统计", "年度统计"],
+};
+
+/**
+ * 构件总览
+ */
+ export const pcomponentView = {
+  // 构件列表
+  componentList: [
+    {
+      id: "NJCJEQ-QD-1",
+      name: "桥墩1",
+      project: "南京长江二桥项目", 
+      carbon: "2039.14 / 3020.55",
+      status: 1, // 1 正常 0 预警
+      department:"桥梁部门",
+      duty:"中建二局"
+    }
+  ],
+  // 构件类型select列表
+  componentType: [
+    {
+      name: "南京长江二桥项目",
+      value: "1",
+    },
+    {
+      name: "南京绕城高速项目",
+      value: "2",
+    },
+    {
+      name: "鼓楼区医院项目",
+      value: "3",
+    },
+    {
+      name: "南京长江大桥项目",
+      value: "4",
+    },
+    {
+      name: "南京长江三桥项目",
+      value: "5",
+    },
+    {
+      name: "浦口快速路项目",
+      value: "6",
+    },
+  ],
+  // 月度select列表数据
+  monthList: ["月度统计", "季度统计", "年度统计"],
+};
+
+/**
+ * 工序总览
+ */
+ export const processView = {
+  // 工序列表
+  processList: [
+    {
+      id: "NJCJEQ-ZJSG",
+      name: "桩基施工",
+      project: "南京长江二桥项目", 
+      carbon: "2039.14 / 3020.55",
+      status: 0, // 1 正常 0 预警
+      department:"桥梁部门",
+      duty:"中国交通建设"
+    }
+  ],
+  // 工序类型select列表
+  processType: [
+    {
+      name: "南京长江二桥项目",
+      value: "1",
+    },
+    {
+      name: "南京绕城高速项目",
+      value: "2",
+    },
+    {
+      name: "鼓楼区医院项目",
+      value: "3",
+    },
+    {
+      name: "南京长江大桥项目",
+      value: "4",
+    },
+    {
+      name: "南京长江三桥项目",
+      value: "5",
+    },
+    {
+      name: "浦口快速路项目",
       value: "6",
     },
   ],
