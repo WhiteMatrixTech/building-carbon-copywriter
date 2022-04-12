@@ -264,6 +264,10 @@ export const projectView = {
   // 项目类型select列表
   projectType: [
     {
+      name: '所有',
+      value: '0'
+    },
+    {
       name: "桥梁项目",
       value: "1",
     },
@@ -406,6 +410,7 @@ export const projectQuery = {
         currentEmission: 49,
         designedEmission: 28,
       },
+      transportWarning: true,
       constructionEmission: {
         currentEmission: 48,
         designedEmission: 75,
@@ -429,10 +434,13 @@ export const projectQuery = {
         currentEmission: 49,
         designedEmission: 25,
       },
+      transportWarning: true,
       constructionEmission: {
         currentEmission: 85,
         designedEmission: 31,
       },
+      constructWarning: true,
+      warning: true
     },
     {
       type: 0,
@@ -1004,6 +1012,48 @@ export const projectQuery = {
         29744, 11860, 16283, 23921, 24158, 12864, 12735, 24465,
       ],
     },
+    {
+      type: 3,
+      label: "构造4",
+      value: 1231,
+      id: 1231,
+      parent: "1010101",
+      subProjectCurrentEmission: 2912,
+      subProjectDesignedEmission: 1966,
+      unitCurrentEmission: 2660,
+      emissionRatio: 63,
+      unitDesignedEmission: 1137,
+      constructionProgress: 34,
+      buildEmission: {
+        currentEmission: 81,
+        designedEmission: 38,
+      },
+      transportEmission: {
+        currentEmission: 38,
+        designedEmission: 35,
+      },
+      constructionEmission: {
+        currentEmission: 99,
+        designedEmission: 23,
+      },
+      designedEmissionRatio: {
+        buildRatio: 20,
+        transportRatio: 28,
+        workRatio: 28,
+      },
+      actuallyEmissionRatio: {
+        buildRatio: 18,
+        transportRatio: 16,
+        workRatio: 23,
+      },
+      designedEmissionTrend: [
+        28614, 23613, 17809, 13759, 13401, 16671, 20044, 12421, 24652, 16869,
+        20097, 26816,
+      ],
+      actuallyEmissionTrend: [
+        29744, 11860, 16283, 23921, 24158, 12864, 12735, 24465,
+      ],
+    },
   ],
   // 构建
   projectComponent: [
@@ -1011,6 +1061,8 @@ export const projectQuery = {
       type: 4,
       label: "桥台A",
       value: 9,
+      warning: true,
+      constructWarning: true,
       id: 9,
       parent: "06",
       subProjectCurrentEmission: 2432,
@@ -1216,6 +1268,101 @@ export const projectQuery = {
       actuallyEmissionTrend: [
         12585, 13268, 23834, 12873, 15838, 27071, 12866, 21431,
       ],
+    },
+    {
+      type: 4,
+      label: "构件5",
+      value: 131,
+      id: 131,
+      parent: "1231",
+      subProjectCurrentEmission: 1975,
+      subProjectDesignedEmission: 1159,
+      unitCurrentEmission: 2987,
+      emissionRatio: 59,
+      unitDesignedEmission: 2314,
+      constructionProgress: 82,
+      buildEmission: {
+        currentEmission: 63,
+        designedEmission: 45,
+      },
+      transportEmission: {
+        currentEmission: 48,
+        designedEmission: 70,
+      },
+      constructionEmission: {
+        currentEmission: 51,
+        designedEmission: 53,
+      },
+      designedEmissionRatio: {
+        buildRatio: 19,
+        transportRatio: 12,
+        workRatio: 17,
+      },
+      actuallyEmissionRatio: {
+        buildRatio: 14,
+        transportRatio: 18,
+        workRatio: 26,
+      },
+      designedEmissionTrend: [
+        28553, 26375, 28825, 11195, 17831, 18265, 19587, 11838, 26821, 29382,
+        29356, 20604,
+      ],
+      actuallyEmissionTrend: [
+        12585, 13268, 23834, 12873, 15838, 27071, 12866, 21431,
+      ],
+    },
+  ],
+  // 总包
+  projectAllUtil: [
+    {
+      type: 8,
+      label: "总包1",
+      value: 9,
+      id: 9,
+      parent: "06",
+      // 项目的图表mock
+      projectCurrentEmission: 2049,
+      projectDesignedEmission: 3020,
+      unitCurrentEmission: 1230,
+      unitDesignedEmission: 1230,
+      constructionProgress: 64,
+      buildEmission: {
+        currentEmission: 38,
+        designedEmission: 100,
+      },
+      transportEmission: {
+        currentEmission: 50,
+        designedEmission: 100,
+      },
+      constructionEmission: {
+        currentEmission: 40,
+        designedEmission: 50,
+      },
+    },
+    {
+      type: 8,
+      label: "总包2",
+      value: 10,
+      id: 10,
+      parent: "06",
+      // 项目的图表mock
+      projectCurrentEmission: 2049,
+      projectDesignedEmission: 3020,
+      unitCurrentEmission: 1230,
+      unitDesignedEmission: 1230,
+      constructionProgress: 64,
+      buildEmission: {
+        currentEmission: 38,
+        designedEmission: 100,
+      },
+      transportEmission: {
+        currentEmission: 50,
+        designedEmission: 100,
+      },
+      constructionEmission: {
+        currentEmission: 40,
+        designedEmission: 50,
+      },
     },
   ],
   // 工序
@@ -1848,19 +1995,23 @@ export const totalView = {
   // 总包类型select列表
   totalType: [
     {
-      name: "1",
+      name: '所有',
+      value: '0'
+    },
+    {
+      name: "总包1",
       value: "1",
     },
     {
-      name: "2",
+      name: "总包2",
       value: "2",
     },
     {
-      name: "3",
+      name: "总包3",
       value: "3",
     },
     {
-      name: "4",
+      name: "总包4",
       value: "4",
     },
   ],
