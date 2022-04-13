@@ -126,7 +126,7 @@ export const home = {
     },
     {
       id: "2",
-      name: "南京金融城超高层监测项目",
+      name: "南京金融城监测项目",
       currentValue: "2039.14 / 3020.55 / 68%",
       status: 1, // 1 正常 0 预警
       link: "https://build-carbon.oss-cn-beijing.aliyuncs.com/projectDetails?projectId=1&queryGroup=%5B%5D",
@@ -134,7 +134,7 @@ export const home = {
     {
       id: "3",
       name: "南京市图书馆项目",
-      currentValue: "703.12 / 780.33 / 90%",
+      currentValue: "1703.12 / 1780.33 / 90%",
       status: 0, // 1 正常 0 预警
       link: "https://build-carbon.oss-cn-beijing.aliyuncs.com/projectDetails?projectId=1&queryGroup=%5B%5D",
     },
@@ -215,7 +215,7 @@ export const home = {
     },
     {
       id: "2",
-      name: "南京金融城超高层监测项目",
+      name: "南京金融城监测项目",
       currentValue: "2039.14 / 3020.55 / 68%",
       status: 1, // 1 正常 0 预警
       link: "https://build-carbon.oss-cn-beijing.aliyuncs.com/projectDetails?projectId=1&queryGroup=%5B%5D",
@@ -223,7 +223,7 @@ export const home = {
     {
       id: "3",
       name: "南京市图书馆项目",
-      currentValue: "703.12 / 780.33 / 90%",
+      currentValue: "1703.12 / 1780.33 / 90%",
       status: 0, // 1 正常 0 预警
       link: "https://build-carbon.oss-cn-beijing.aliyuncs.com/projectDetails?projectId=1&queryGroup=%5B%5D",
     },
@@ -313,7 +313,7 @@ export const projectView = {
     },
     {
       id: "JNXLGJSD-02",
-      name: "建宁西路过江隧道项目",
+      name: "建宁西路隧道项目",
       currentValue: "2910.3 / 4021.52",
       designValue: "",
       percentage: "",
@@ -349,10 +349,10 @@ export const projectView = {
     },
     {
       id: "DTSHX-05",
-      name: "南京地铁四号线项目",
+      name: "南京地铁项目",
       currentValue: "2201.09 / 2300.78",
-      designValue: "3020.55t",
-      percentage: "67.51%",
+      designValue: "",
+      percentage: "",
       status: 0, // 1 正常 0 预警  可参考
       type: 5, //1 桥梁 2 隧道 3 道路 4 建筑 5 地铁
       volume: "5000",
