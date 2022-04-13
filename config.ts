@@ -472,7 +472,7 @@ export const projectQuery = {
   projectName: [
     {
       type: 0,
-      label: "南京跨省高架项目",
+      label: "南京长江二桥项目",
       value: 1,
       id: 1,
       // 项目的图表mock
@@ -493,6 +493,12 @@ export const projectQuery = {
         currentEmission: 40,
         designedEmission: 50,
       },
+      //项目卡片
+      projectId:"CJEQ-01",//项目编号
+      //项目名称 lable
+      projectType:"正常",//项目状态
+      projectAdmin:"桥隧工程一处",//管理部门
+      projectTotal:"中建二局",//责任单位
     },
     {
       type: 0,
@@ -516,6 +522,12 @@ export const projectQuery = {
         currentEmission: 58,
         designedEmission: 26,
       },
+      //项目卡片
+      projectId:"CJEQ-01",//项目编号
+      //项目名称 lable
+      projectType:"正常",//项目状态
+      projectAdmin:"桥隧工程一处",//管理部门
+      projectTotal:"中建二局",//责任单位
     },
     {
       type: 0,
@@ -539,6 +551,12 @@ export const projectQuery = {
         currentEmission: 66,
         designedEmission: 11,
       },
+      //项目卡片
+      projectId:"CJEQ-01",//项目编号
+      //项目名称 lable
+      projectType:"正常",//项目状态
+      projectAdmin:"桥隧工程一处",//管理部门
+      projectTotal:"中建二局",//责任单位
     },
     {
       type: 0,
@@ -562,6 +580,12 @@ export const projectQuery = {
         currentEmission: 18,
         designedEmission: 36,
       },
+      //项目卡片
+      projectId:"CJEQ-01",//项目编号
+      //项目名称 lable
+      projectType:"正常",//项目状态
+      projectAdmin:"桥隧工程一处",//管理部门
+      projectTotal:"中建二局",//责任单位
     },
     {
       type: 0,
@@ -586,6 +610,12 @@ export const projectQuery = {
         currentEmission: 48,
         designedEmission: 75,
       },
+      //项目卡片
+      projectId:"CJEQ-01",//项目编号
+      //项目名称 lable
+      projectType:"正常",//项目状态
+      projectAdmin:"桥隧工程一处",//管理部门
+      projectTotal:"中建二局",//责任单位
     },
     {
       type: 0,
@@ -611,14 +641,19 @@ export const projectQuery = {
         designedEmission: 31,
       },
       constructWarning: true,
-      warning: true
+      warning: true,
+      //项目卡片
+      projectId:"CJEQ-01",//项目编号
+      //项目名称 lable
+      projectType:"正常",//项目状态
+      projectAdmin:"桥隧工程一处",//管理部门
+      projectTotal:"中建二局",//责任单位
     },
     {
       type: 0,
       label: "深圳跨省高架项目",
       value: 61,
       id: 61,
-
       projectCurrentEmission: 1851,
       projectDesignedEmission: 1915,
       unitCurrentEmission: 2438,
@@ -636,6 +671,12 @@ export const projectQuery = {
         currentEmission: 81,
         designedEmission: 87,
       },
+      //项目卡片
+      projectId:"CJEQ-01",//项目编号
+      //项目名称 lable
+      projectType:"正常",//项目状态
+      projectAdmin:"桥隧工程一处",//管理部门
+      projectTotal:"中建二局",//责任单位
     },
     {
       type: 0,
@@ -659,6 +700,12 @@ export const projectQuery = {
         currentEmission: 35,
         designedEmission: 42,
       },
+      //项目卡片
+      projectId:"CJEQ-01",//项目编号
+      //项目名称 lable
+      projectType:"正常",//项目状态
+      projectAdmin:"桥隧工程一处",//管理部门
+      projectTotal:"中建二局",//责任单位
     },
     {
       type: 0,
@@ -682,6 +729,12 @@ export const projectQuery = {
         currentEmission: 29,
         designedEmission: 39,
       },
+      //项目卡片
+      projectId:"CJEQ-01",//项目编号
+      //项目名称 lable
+      projectType:"正常",//项目状态
+      projectAdmin:"桥隧工程一处",//管理部门
+      projectTotal:"中建二局",//责任单位
     },
     {
       type: 0,
@@ -705,13 +758,18 @@ export const projectQuery = {
         currentEmission: 91,
         designedEmission: 84,
       },
+      //项目卡片
+      projectId:"CJEQ-01",//项目编号
+      //项目名称 lable
+      projectType:"正常",//项目状态
+      projectAdmin:"桥隧工程一处",//管理部门
+      projectTotal:"中建二局",//责任单位
     },
     {
       type: 0,
       label: "南京4跨省高架项目",
       value: 65,
       id: 65,
-
       projectCurrentEmission: 2361,
       projectDesignedEmission: 2480,
       unitCurrentEmission: 1479,
@@ -729,6 +787,12 @@ export const projectQuery = {
         currentEmission: 53,
         designedEmission: 15,
       },
+      //项目卡片
+      projectId:"CJEQ-01",//项目编号
+      //项目名称 lable
+      projectType:"正常",//项目状态
+      projectAdmin:"桥隧工程一处",//管理部门
+      projectTotal:"中建二局",//责任单位
     },
     {
       type: 0,
@@ -752,6 +816,12 @@ export const projectQuery = {
         currentEmission: 52,
         designedEmission: 84,
       },
+      //项目卡片
+      projectId:"CJEQ-01",//项目编号
+      //项目名称 lable
+      projectType:"正常",//项目状态
+      projectAdmin:"桥隧工程一处",//管理部门
+      projectTotal:"中建二局",//责任单位
     },
   ],
   // 项目标段
@@ -797,6 +867,12 @@ export const projectQuery = {
       actuallyEmissionTrend: [
         27123, 16853, 28683, 27329, 20332, 24707, 17850, 11739,
       ],
+      //项目卡片
+      projectId:"CJEQ-01",//项目编号
+      //项目名称 lable
+      projectType:"正常",//项目状态
+      projectAdmin:"桥隧工程一处",//管理部门
+      projectTotal:"中建二局",//责任单位
     },
     {
       type: 1,
@@ -839,6 +915,12 @@ export const projectQuery = {
       actuallyEmissionTrend: [
         21687, 18692, 17742, 21254, 12607, 25602, 13812, 22416,
       ],
+      //项目卡片
+      projectId:"CJEQ-01",//项目编号
+      //项目名称 lable
+      projectType:"正常",//项目状态
+      projectAdmin:"桥隧工程一处",//管理部门
+      projectTotal:"中建二局",//责任单位
     },
     {
       type: 1,
@@ -881,6 +963,12 @@ export const projectQuery = {
       actuallyEmissionTrend: [
         12184, 16899, 10349, 20660, 17644, 24981, 16790, 10328,
       ],
+      //项目卡片
+      projectId:"CJEQ-01",//项目编号
+      //项目名称 lable
+      projectType:"正常",//项目状态
+      projectAdmin:"桥隧工程一处",//管理部门
+      projectTotal:"中建二局",//责任单位
     },
   ],
   // 子工程,
@@ -927,6 +1015,12 @@ export const projectQuery = {
       actuallyEmissionTrend: [
         12000, 10000, 14000, 11000, 14000, 15000, 19000, 22000,
       ],
+      //项目卡片
+      projectId:"CJEQ-01",//项目编号
+      //项目名称 lable
+      projectType:"正常",//项目状态
+      projectAdmin:"桥隧工程一处",//管理部门
+      projectTotal:"中建二局",//责任单位
     },
     {
       type: 2,
@@ -969,6 +1063,12 @@ export const projectQuery = {
       actuallyEmissionTrend: [
         22487, 18416, 17315, 16813, 21564, 22150, 27779, 25006,
       ],
+      //项目卡片
+      projectId:"CJEQ-01",//项目编号
+      //项目名称 lable
+      projectType:"正常",//项目状态
+      projectAdmin:"桥隧工程一处",//管理部门
+      projectTotal:"中建二局",//责任单位
     },
     {
       type: 2,
@@ -1011,6 +1111,12 @@ export const projectQuery = {
       actuallyEmissionTrend: [
         22487, 18416, 17315, 16813, 21564, 22150, 27779, 25006,
       ],
+      //项目卡片
+      projectId:"CJEQ-01",//项目编号
+      //项目名称 lable
+      projectType:"正常",//项目状态
+      projectAdmin:"桥隧工程一处",//管理部门
+      projectTotal:"中建二局",//责任单位
     },
   ],
   // 构造
@@ -1226,7 +1332,7 @@ export const projectQuery = {
       ],
     },
   ],
-  // 构建
+  // 构件
   projectComponent: [
     {
       type: 4,
@@ -1271,6 +1377,13 @@ export const projectQuery = {
       actuallyEmissionTrend: [
         27970, 26271, 18365, 10195, 16622, 26661, 26289, 15197,
       ],
+      //构件卡片
+      componentId:"CJEQ-01",//构件编号
+                            //构件名称 lable
+      componentSource:"现浇构件",//构件来源
+      componentType:"正常",//构件状态
+      componentAdmin:"桥隧工程一处",//管理部门
+      componentTotal:"中建二局",//责任单位
     },
     {
       type: 4,
@@ -1509,6 +1622,10 @@ export const projectQuery = {
         currentEmission: 40,
         designedEmission: 50,
       },
+      //总包卡片
+      //总包名称 lable
+      totalLevel:"2",//碳排等级
+      totalPercent:"76%",//碳排达标率
     },
     {
       type: 8,
@@ -1579,6 +1696,12 @@ export const projectQuery = {
       actuallyEmissionTrend: [
         17842, 10752, 22456, 10698, 25160, 18727, 20831, 12183,
       ],
+      //工序卡片
+      processId:"NJCJEQ-ZJSG",//工序编号
+      //工序名称 lable
+      processType:"正常",//工序状态
+      processAdmin:"桥隧工程一处",//管理部门
+      processTotal:"中建二局",//责任单位
     },
     {
       type: 5,
@@ -1709,6 +1832,12 @@ export const projectQuery = {
       actuallyEmissionTrend: [
         23593, 20072, 17082, 22013, 10572, 21963, 25666, 16521,
       ],
+      //材料卡片
+      materialId:"NJCJEQ-ZJSG",//材料编号
+      materialName:"商品混凝土",//材料名称
+      //材料类型 lable
+      materialType:"正常",//材料状态
+      materialsupplier:"南京普迪混凝土有限公司",//供应商
     },
     {
       type: 6,
