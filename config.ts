@@ -1119,7 +1119,7 @@ export const projectQuery = {
       projectTotal: "中建二局",//责任单位
     },
   ],
-  // 构造
+  // 构造检索
   projectConstruct: [
     {
       type: 3,
@@ -1332,7 +1332,7 @@ export const projectQuery = {
       ],
     },
   ],
-  // 构件
+  // 构件检索mock
   projectComponent: [
     {
       type: 4,
@@ -1378,12 +1378,12 @@ export const projectQuery = {
         27970, 26271, 18365, 10195, 16622, 26661, 26289, 15197,
       ],
       //构件卡片
-      componentId: "CJEQ-01",//构件编号
+      projectId: "CJEQ-01",//构件编号
       //构件名称 lable
-      componentSource: "现浇构件",//构件来源
-      componentType: "正常",//构件状态
-      componentAdmin: "桥隧工程一处",//管理部门
-      componentTotal: "中建二局",//责任单位
+      projecSource: "现浇构件",//构件来源
+      projecType: "正常",//构件状态
+      projecAdmin: "桥隧工程一处",//管理部门
+      projecTotal: "中建二局",//责任单位
     },
     {
       type: 4,
@@ -1596,7 +1596,7 @@ export const projectQuery = {
       ],
     },
   ],
-  // 总包
+  // 总包检索mock
   projectAllUtil: [
     {
       type: 8,
@@ -1624,8 +1624,8 @@ export const projectQuery = {
       },
       //总包卡片
       //总包名称 lable
-      totalLevel: "2",//碳排等级
-      totalPercent: "76%",//碳排达标率
+      projectLevel: "2",//碳排等级
+      projectPercent: "76%",//碳排达标率
     },
     {
       type: 8,
