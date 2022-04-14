@@ -1380,10 +1380,10 @@ export const projectQuery = {
       //构件卡片
       projectId: "CJEQ-01",//构件编号
       //构件名称 lable
-      projecProps: "现浇构件",//构件来源
-      projecType: "正常",//构件状态
-      projecAdmin: "桥隧工程一处",//管理部门
-      projecTotal: "中建二局",//责任单位
+      projectProps: "现浇构件",//构件来源
+      projectType: "正常",//构件状态
+      projectAdmin: "桥隧工程一处",//管理部门
+      projectTotal: "中建二局",//责任单位
     },
     {
       type: 4,
