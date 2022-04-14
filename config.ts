@@ -468,7 +468,7 @@ export const projectView = {
  */
 
 export const projectQuery = {
-  // 项目名称
+  // 项目名称mock
   projectName: [
     {
       type: 0,
@@ -824,7 +824,7 @@ export const projectQuery = {
       projectTotal: "中建二局",//责任单位
     },
   ],
-  // 项目标段
+  // 项目标段mock
   projectSection: [
     {
       type: 1,
@@ -867,10 +867,10 @@ export const projectQuery = {
       actuallyEmissionTrend: [
         27123, 16853, 28683, 27329, 20332, 24707, 17850, 11739,
       ],
-      //项目卡片
-      projectId: "CJEQ-01",//项目编号
-      //项目名称 lable
-      projectType: "正常",//项目状态
+      //标段卡片
+      projectId: "CJEQ-01",//标段编号
+      //标段名称 lable
+      projectType: "正常",//标段状态
       projectAdmin: "桥隧工程一处",//管理部门
       projectTotal: "中建二局",//责任单位
     },
@@ -915,10 +915,10 @@ export const projectQuery = {
       actuallyEmissionTrend: [
         21687, 18692, 17742, 21254, 12607, 25602, 13812, 22416,
       ],
-      //项目卡片
-      projectId: "CJEQ-01",//项目编号
-      //项目名称 lable
-      projectType: "正常",//项目状态
+      //标段卡片
+      projectId: "CJEQ-01",//标段编号
+      //标段名称 lable
+      projectType: "正常",//标段状态
       projectAdmin: "桥隧工程一处",//管理部门
       projectTotal: "中建二局",//责任单位
     },
@@ -1015,10 +1015,10 @@ export const projectQuery = {
       actuallyEmissionTrend: [
         12000, 10000, 14000, 11000, 14000, 15000, 19000, 22000,
       ],
-      //项目卡片
-      projectId: "CJEQ-01",//项目编号
-      //项目名称 lable
-      projectType: "正常",//项目状态
+      //子工程卡片
+      projectId: "CJEQ-01",//子工程编号
+      //子工程名称 lable
+      projectType: "正常",//子工程状态
       projectAdmin: "桥隧工程一处",//管理部门
       projectTotal: "中建二局",//责任单位
     },
@@ -1380,7 +1380,7 @@ export const projectQuery = {
       //构件卡片
       projectId: "CJEQ-01",//构件编号
       //构件名称 lable
-      projecSource: "现浇构件",//构件来源
+      projecProps: "现浇构件",//构件来源
       projecType: "正常",//构件状态
       projecAdmin: "桥隧工程一处",//管理部门
       projecTotal: "中建二局",//责任单位
@@ -1697,11 +1697,11 @@ export const projectQuery = {
         17842, 10752, 22456, 10698, 25160, 18727, 20831, 12183,
       ],
       //工序卡片
-      processId: "NJCJEQ-ZJSG",//工序编号
+      projectId: "NJCJEQ-ZJSG",//工序编号
       //工序名称 lable
-      processType: "正常",//工序状态
-      processAdmin: "桥隧工程一处",//管理部门
-      processTotal: "中建二局",//责任单位
+      projectType: "正常",//工序状态
+      projectAdmin: "桥隧工程一处",//管理部门
+      projectTotal: "中建二局",//责任单位
     },
     {
       type: 5,
@@ -1833,11 +1833,11 @@ export const projectQuery = {
         23593, 20072, 17082, 22013, 10572, 21963, 25666, 16521,
       ],
       //材料卡片
-      materialId: "NJCJEQ-ZJSG",//材料编号
-      materialName: "商品混凝土",//材料名称
+      projectId: "NJCJEQ-ZJSG",//材料编号
+      projectName: "商品混凝土",//材料名称
       //材料类型 lable
-      materialType: "正常",//材料状态
-      materialsupplier: "南京普迪混凝土有限公司",//供应商
+      projectType: "正常",//材料状态
+      projectsupplier: "南京普迪混凝土有限公司",//供应商
     },
     {
       type: 6,
