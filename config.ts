@@ -391,7 +391,7 @@ export const projectView = {
       percentage: "",
       status: 0, // 1 正常 0 预警  可参考
       type: 2, //1 桥梁 2 隧道 3 道路 4 建筑 5 地铁
-      volume: "7500元",
+      volume: "7500",
       department: "桥隧工程二处",
       duty: "中国交通建设"
     },
