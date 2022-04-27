@@ -308,7 +308,7 @@ export const projectView = {
       status: 1, // 1 正常 0 预警  可参考
       type: 1, //1 桥梁 2 隧道 3 道路 4 建筑 5 地铁
       volume: "8000",
-      department: "桥梁部门",
+      department: "桥隧工程一处",
       duty: "中国交通建设"
     },
     {
@@ -320,7 +320,7 @@ export const projectView = {
       status: 1, // 1 正常 0 预警  可参考
       type: 2, //1 桥梁 2 隧道 3 道路 4 建筑 5 地铁
       volume: "3000",
-      department: "隧道部门",
+      department: "桥隧工程一处",
       duty: "中国交通建设"
     },
     {
@@ -332,7 +332,7 @@ export const projectView = {
       status: 2, // 1 正常 0 预警  可参考
       type: 3, //1 桥梁 2 隧道 3 道路 4 建筑 5 地铁
       volume: "2000",
-      department: "道路部门",
+      department: "交通建设一处",
       duty: "中国交通建设"
     },
     {
@@ -344,7 +344,7 @@ export const projectView = {
       status: 1, // 1 正常 0 预警  可参考
       type: 4, //1 桥梁 2 隧道 3 道路 4 建筑 5 地铁
       volume: "3500",
-      department: "建筑部门",
+      department: "建设工程处",
       duty: "中国交通建设"
     },
     {
@@ -356,7 +356,7 @@ export const projectView = {
       status: 0, // 1 正常 0 预警  可参考
       type: 5, //1 桥梁 2 隧道 3 道路 4 建筑 5 地铁
       volume: "5000",
-      department: "地铁部门",
+      department: "桥隧工程二处",
       duty: "中国交通建设"
     },
     {
@@ -368,7 +368,7 @@ export const projectView = {
       status: 1, // 1 正常 0 预警  可参考
       type: 1, //1 桥梁 2 隧道 3 道路 4 建筑 5 地铁
       volume: "35000",
-      department: "桥梁部门",
+      department: "桥隧工程一处",
       duty: "中国交通建设"
     },
     {
@@ -380,7 +380,7 @@ export const projectView = {
       status: 1, // 1 正常 0 预警  可参考
       type: 1, //1 桥梁 2 隧道 3 道路 4 建筑 5 地铁
       volume: "12000",
-      department: "桥梁部门",
+      department: "桥隧工程一处",
       duty: "中国交通建设"
     },
     {
@@ -392,7 +392,7 @@ export const projectView = {
       status: 0, // 1 正常 0 预警  可参考
       type: 2, //1 桥梁 2 隧道 3 道路 4 建筑 5 地铁
       volume: "7500元",
-      department: "隧道部门",
+      department: "桥隧工程二处",
       duty: "中国交通建设"
     },
     {
@@ -404,7 +404,7 @@ export const projectView = {
       status: 1, // 1 正常 0 预警  可参考
       type: 1, //1 桥梁 2 隧道 3 道路 4 建筑 5 地铁
       volume: "12500",
-      department: "桥梁部门",
+      department: "桥隧工程一处",
       duty: "中国交通建设"
     },
     {
@@ -416,7 +416,7 @@ export const projectView = {
       status: 1, // 1 正常 0 预警  可参考
       type: 3, //1 桥梁 2 隧道 3 道路 4 建筑 5 地铁
       volume: "2000",
-      department: "道路部门",
+      department: "交通建设二处",
       duty: "中国交通建设"
     },
     {
@@ -428,7 +428,7 @@ export const projectView = {
       status: 1, // 1 正常 0 预警  可参考
       type: 1, //1 桥梁 2 隧道 3 道路 4 建筑 5 地铁
       volume: "5000",
-      department: "桥梁部门",
+      department: "桥隧工程一处",
       duty: "中国交通建设"
     },
 
