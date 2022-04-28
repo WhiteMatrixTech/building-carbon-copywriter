@@ -15,3 +15,12 @@ jobs:
 
       - name: Trigger deployment
         run: curl -X POST ${{ secrets.DEPLOY_HOOK }}
+      
+      - name: Trigger Repo Deployment
+        run: | 
+          curl \
+            -X POST \
+            -H "Accept: application/vnd.github.v3+json" \
+            -H "Authorization: token ${{ secrets.ACTION_TOKEN }}" \
+            https://api.github.com/repos/WhiteMatrixTech/building-carbon-web/actions/workflows/deploy.yml/dispatches \
+            -d '{"ref":"main"}'
