@@ -2968,37 +2968,47 @@ export const materialsView = {
  */
 export const totalView = {
   // 总包列表
-  totalList: [{
+  totalList: [
+    {
     "name": "中建一局",
     "totalcarbon": 30492.56,
     "designcarbon": 50395.44,
     "type": 2,
     "percent": "76%"
-  }, {"name": "中建四局", "totalcarbon": 43203.73, "designcarbon": 73025.34, "type": 1, "percent": 0.81}, {
+    },
+    {
+     "name": "中建四局",
+     "totalcarbon": 43203.73,
+     "designcarbon": 73025.34, 
+     "type": 1, 
+     "percent": "81%"
+    },
+    {
     "name": "中建八局",
     "totalcarbon": 49021.32,
     "designcarbon": 60314.58,
     "type": 2,
     "percent": "74%"
-  }, {
+     },
+    {
     "name": "中国交通建设",
     "totalcarbon": 238495.26,
     "designcarbon": 352326.32,
     "type": 2,
     "percent": "73%"
-  }, {"name": "中国铁建", "totalcarbon": 23053.52, "designcarbon": 31294.85, "type": 3, "percent": 0.68}, {
+  }, {"name": "中国铁建", "totalcarbon": 23053.52, "designcarbon": 31294.85, "type": 3, "percent": "68%"}, {
     "name": "中建二局",
     "totalcarbon": 53204.15,
     "designcarbon": 92045.31,
     "type": 1,
     "percent": "77%"
-  }, {"name": "太平洋建设", "totalcarbon": 21496.93, "designcarbon": 38923.22, "type": 3, "percent": 0.65}, {
+  }, {"name": "太平洋建设", "totalcarbon": 21496.93, "designcarbon": 38923.22, "type": 3, "percent": "65%"}, {
     "name": "湖南建工",
     "totalcarbon": 7394.29,
     "designcarbon": 8019.14,
     "type": 4,
     "percent": "58%"
-  }, {"name": "南通四建", "totalcarbon": 43904.13, "designcarbon": 63853.46, "type": 3, "percent": 0.64}, {
+  }, {"name": "南通四建", "totalcarbon": 43904.13, "designcarbon": 63853.46, "type": 3, "percent": "64%"}, {
     "name": "浙江交投",
     "totalcarbon": 60312.35,
     "designcarbon": 94205.32,
@@ -3011,31 +3021,31 @@ export const totalView = {
     "type": 3,
     "percent": "65%"
   },
-    {"name": "广厦控股", "totalcarbon": 20845.26, "designcarbon": 28495.36, "type": 4, "percent": 0.56}, {
+    {"name": "广厦控股", "totalcarbon": 20845.26, "designcarbon": 28495.36, "type": 4, "percent": "56%"}, {
       "name": "中天控股",
       "totalcarbon": 40932.66,
       "designcarbon": 58390.16,
       "type": 3,
       "percent": "66%"
-    }, {"name": "四川华西", "totalcarbon": 104864.29, "designcarbon": 137545.83, "type": 3, "percent": 0.65}, {
+    }, {"name": "四川华西", "totalcarbon": 104864.29, "designcarbon": 137545.83, "type": 3, "percent": "65%"}, {
       "name": "山东科达",
       "totalcarbon": 39463.47,
       "designcarbon": 50384.26,
       "type": 3,
       "percent": "67%"
-    }, {"name": "山河建设", "totalcarbon": 8304.93, "designcarbon": 12039.31, "type": 2, "percent": 0.74}, {
+    }, {"name": "山河建设", "totalcarbon": 8304.93, "designcarbon": 12039.31, "type": 2, "percent": "74%"}, {
       "name": "通州建总",
       "totalcarbon": 7495.34,
       "designcarbon": 15035.36,
       "type": 2,
       "percent": "73%"
-    }, {"name": "中设建工", "totalcarbon": 13940.36, "designcarbon": 20348.25, "type": 2, "percent": 0.76}, {
+    }, {"name": "中设建工", "totalcarbon": 13940.36, "designcarbon": 20348.25, "type": 2, "percent": "76%"}, {
       "name": "中兴建设",
       "totalcarbon": 39405.55,
       "designcarbon": 45930.27,
       "type": 4,
       "percent": "56%"
-    }, {"name": "厦门建发", "totalcarbon": 5940.93, "designcarbon": 18304.39, "type": 1, "percent": 0.78}],
+    }, {"name": "厦门建发", "totalcarbon": 5940.93, "designcarbon": 18304.39, "type": 1, "percent": "78%"}],
   // 总包类型select列表
   totalType: [
     {
